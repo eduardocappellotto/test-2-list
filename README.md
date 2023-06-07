@@ -1,8 +1,9 @@
 # List
 
-Create a list application from the provided design file [list.xd](list.xd) (can
-be opened in [Adobe XD](https://www.adobe.com/products/xd.html)) or available
-[here](https://xd.adobe.com/view/3859fb2f-c300-4d3e-8e50-23a085a7ad2c-6d0a/specs/).
+Create the list application. Here are:
+
+- design https://www.figma.com/file/wWHQUaudDh0pAGHeOuVMSR/Test-2---List?type=design&node-id=0%3A1&t=hdLWbo6CHzNy3lhR-1
+- and prototype https://www.figma.com/proto/wWHQUaudDh0pAGHeOuVMSR/Test-2-List?type=design&node-id=0-1&viewport=457%2C278%2C0.46&scaling=scale-down&starting-point-node-id=1%3A56&show-proto-sidebar=1
 
 ## Project setup
 
