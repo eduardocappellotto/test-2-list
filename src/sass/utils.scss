@@ -1,0 +1,27 @@
+@use 'sass:math';
+
+@function pxToRem($pxValue) {
+  @return math.div($pxValue, 16px) * 1rem;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.cursor-pointer {
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.cursor-not-allowed {
+  &:hover {
+    cursor: not-allowed;
+  }
+}
+
+:disabled {
+  &:hover {
+    cursor: not-allowed;
+  }
+}
