@@ -1,23 +1,27 @@
 @use './color';
 
+@import './button.scss';
+
 @import url('//fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 *,
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
 }
 
 html,
 body {
   margin: 0;
   padding: 0;
+  background: linear-gradient(180deg, #ffffff 0%, #dee2e6 100%);
+  background-attachment: fixed;
 }
 
 html {
   color: color.$text;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 87.5%;
+  font-family: 'Inter', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
