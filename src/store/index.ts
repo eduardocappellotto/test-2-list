@@ -10,9 +10,13 @@ export const useTodoStore = defineStore('todo', () => {
   )
 
   const getNextId = (): number => {
-    const ids = todos.value.map((todo) => todo.id)
-    const maxId = Math.max(...ids)
-    return maxId + 1
+    if (todos.value.length === 0) {
+      return 1
+    } else {
+      const ids = todos.value.map((todo) => todo.id)
+      const maxId = Math.max(...ids)
+      return maxId + 1
+    }
   }
 
   const addTodo = (text: string) => {
